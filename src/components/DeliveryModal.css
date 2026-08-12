@@ -1,0 +1,119 @@
+.delivery-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(27, 21, 18, 0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  padding: 20px;
+}
+
+.delivery-card {
+  width: 380px;
+  background: var(--card);
+  border-radius: 22px;
+  padding: 26px 26px 30px;
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.25);
+}
+
+.delivery-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.delivery-title {
+  font-family: var(--font-display);
+  font-size: 16px;
+  color: var(--ink);
+  margin: 0;
+}
+
+.delivery-close {
+  background: var(--red);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.delivery-modes {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.delivery-mode-btn {
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: #fff;
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 13px;
+  padding: 11px 20px;
+  cursor: pointer;
+}
+
+.delivery-mode-btn.active {
+  border: none;
+  background: var(--red);
+  color: #fff;
+}
+
+.delivery-locate {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 auto 18px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: var(--font-body);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.delivery-addr-wrap {
+  position: relative;
+}
+
+.delivery-addr-input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 13px 40px 13px 16px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  font-family: var(--font-body);
+  font-size: 13px;
+}
+
+.delivery-addr-icon {
+  position: absolute;
+  right: 16px;
+  top: 14px;
+  color: var(--red);
+}
+
+.delivery-confirm {
+  width: 100%;
+  margin-top: 18px;
+  background: var(--red);
+  color: #fff;
+  border: none;
+  border-radius: 999px;
+  padding: 13px 0;
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 13.5px;
+  cursor: pointer;
+}

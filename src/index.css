@@ -1,0 +1,33 @@
+
+:root {
+  --cream: #FFFFFF;
+  --ink: #1B1512;
+  --red: #D62E1F;
+  --red-dark: #A81F14;
+  --ember: #F4A620;
+  --line: rgba(27, 21, 18, 0.10);
+  --card: #FFFFFF;
+  --muted: #8a8078;
+  --muted-light: #a89a8c;
+  --font-display: "Fraunces", serif;
+  --font-body: "Inter", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--cream);
+  font-family: var(--font-body);
+  color: var(--ink);
+}
+
+button {
+  font-family: inherit;
+}

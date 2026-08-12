@@ -1,0 +1,91 @@
+.menu-page {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 30px 24px 70px;
+}
+
+.menu-back {
+  background: none;
+  border: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--muted);
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 13px;
+  cursor: pointer;
+  margin-bottom: 16px;
+}
+
+.menu-title {
+  font-family: var(--font-display);
+  font-size: 28px;
+  margin: 0 0 22px;
+  color: var(--ink);
+}
+
+.menu-empty {
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 18px;
+}
+
+.menu-card {
+  background: var(--card);
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-card-img {
+  height: 130px;
+  background-size: cover;
+  background-position: center;
+  background-color: #ece5db;
+}
+
+.menu-card-body {
+  padding: 14px 16px 16px;
+}
+
+.menu-card-name {
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 14px;
+  margin: 0 0 4px;
+  color: var(--ink);
+}
+
+.menu-card-price {
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 13.5px;
+  color: var(--red-dark);
+  margin: 0 0 10px;
+}
+
+.menu-card-add {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  border: none;
+  background: var(--ink);
+  color: #fff;
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-size: 12.5px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.menu-card-add:hover {
+  background: var(--red-dark);
+}
